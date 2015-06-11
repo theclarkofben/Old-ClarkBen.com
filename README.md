@@ -1,3 +1,3 @@
 # Clarkben.com
 
-This is the code for my personal website www.clarkben.com
+This is a website I made for myself using jQuery/CSS/HTML/PHP.
