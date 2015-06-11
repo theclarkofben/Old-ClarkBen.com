@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-touch-icon-76x76.png">
+    <link rel="icon" type="image/png" href="/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta charset="utf-8"/>
+    <title>clarkben.com</title>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>  
+    <script type="text/javascript">
+      function centeredPopup(url,winName,w,h,scroll){
+      LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+      TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+      settings =
+      'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
+      popupWindow = window.open(url,winName,settings)
+      }
+    </script>
+  </head> 
+  <body>
+    <div class="desktop_container"> 
+      <img class="clarkben" src="http://www.clarkben.com/images/CLARKBEN.png" alt="clarkben.com"/>
+      <div class="faces_container">
+        <div class="common green"><img class="greenface" src="http://www.clarkben.com/images/ben21.jpg" alt="Ben"/></div>
+        <div class="common almostgreen"><img class="almostgreenface" src="http://www.clarkben.com/images/ben11.jpg" alt="Ben"/></div>
+        <div class="common notquitegreen"><img class="notquitegreenface" src="http://www.clarkben.com/images/ben9.jpg" alt="Ben"/></div>
+        <div class="common sillygreen"><img class="sillygreenface" src="http://www.clarkben.com/images/ben7.jpg" alt="Ben"/></div>
+        <div class="common badgreen"><img class="badgreenface" src="http://www.clarkben.com/images/ben5.jpg" alt="Ben"/></div>
+        <div class="common blue"><img class="blueface" src="http://www.clarkben.com/images/ben20.jpg" alt="Ben"/></div>
+        <div class="common badgreen"><img class="badgreenface" src="http://www.clarkben.com/images/ben6.jpg" alt="Ben"/></div>
+        <div class="common sillygreen"><img class="sillygreenface" src="http://www.clarkben.com/images/ben8.jpg" alt="Ben"/></div>
+        <div class="common notquitegreen"><img class="notquitegreenface" src="http://www.clarkben.com/images/ben10.jpg" alt="Ben"/></div>
+        <div class="common almostgreen"><img class="almostgreenface" src="http://www.clarkben.com/images/ben12.jpg" alt="Ben"/></div>
+        <div class="common green"><img class="greenface" src="http://www.clarkben.com/images/ben22.jpg" alt="Ben"/></div>
+      </div>
+      <a href="" onclick="return false" id="about_me_button" class="btn paper paper-raise-flatten">About Me</a>
+      <a href="CV_B_Clark.pdf?ver=1.2" target="_blank" class="btn paper paper-raise-flatten">CV</a>
+      <a href="http://www.clarkben.com/contactme" class="btn paper paper-raise-flatten" onclick="centeredPopup(this.href,'myWindow','450','680','yes');return false">Contact</a>
+      <div class="about_me_container">
+        <div id="show_effect" class="about_me">
+          <p>Hello there<br /><br />I'm Ben Clark, an aspiring web developer based in London. I'm looking for an opportunity to start working as a front end developer. Feel free to get in touch.<br /><br />Cheers!</p>
+        </div>
+      </div>
+    </div>
+    <div class="mobile_container">
+    <img src="http://www.clarkben.com/images/mobileben2.png"/>
+    <p>Hello there<br /><br />I'm Ben Clark, an aspiring web developer based in London. I'm looking for a job - take a look at my CV and if you like what you see then feel free to get in contact.<br /><br />Cheers!</p>
+    <a href="CV_B_Clark.pdf?ver=1.2" target="_blank" class="btn paper paper-raise-flatten">CV</a>
+    <a href="mailto:ben@clarkben.com" class="btn paper paper-raise-flatten">Contact</a>
+    </div>         
+  </body>
+</html>

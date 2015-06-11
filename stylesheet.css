@@ -1,0 +1,186 @@
+@charset "UTF-8";
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.mobile_container{
+  display: none;
+}
+.desktop_container {
+  display: block;
+  height: 500px;
+  overflow:hidden;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+.clarkben {
+  display:block;
+  margin: 0 auto;
+}
+.faces_container {
+  display:block;
+}
+.common {
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  padding: 0px;
+  margin: 0px 1px;
+}
+.green {
+  background-color: #78ab20;
+  border-radius:0px;  
+}
+.almostgreen {
+  background-color: #78ab35;
+  border-radius:8px;
+}
+.notquitegreen {
+  background-color: #78ab50;
+  border-radius:16px;
+}
+.sillygreen {
+  background-color: #78ab65;
+  border-radius:24px;
+}
+.badgreen {
+  background-color: #78ab80;
+  border-radius:32px;
+}
+.blue {
+  background-color: #78ab95;
+  border-radius:40px;
+}
+.blueface {
+  display:none;
+  border-radius:40px;
+}
+.badgreenface {
+  display:none;
+  border-radius:32px;
+}
+.sillygreenface {
+  display:none;
+  border-radius:24px;
+}
+.notquitegreenface {
+  display:none;
+  border-radius:16px;
+}
+.almostgreenface {
+  display:none;
+  border-radius:8px;
+}
+.greenface {
+  display:none;
+  border-radius:0px;
+}
+/* Base Button Style */
+.btn {
+  position: relative;
+  font-family: Josefin Sans;
+  font-size: 14px;
+  display: inline-block;
+  width: 150px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transform-style: flat;
+  transition: all 250ms ease-out; }
+  .btn:before, .btn:after {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    transition: all 250ms ease-out; }
+
+/* Paper effect slightly raised off background */
+.paper {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset;
+  border-color: #dedede; 
+}
+.paper-raise-flatten {
+  border-color: #fff;
+  box-shadow: none; 
+}
+.paper-raise-flatten:before {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5); 
+}
+.paper-raise-flatten:hover {
+  border-color: #dedede; 
+}
+.paper-raise-flatten:hover:before {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset; 
+}
+.about_me_container {
+  display:block;
+  margin: 0 auto;
+  text-align:left;
+  width: 736px;
+  font-family: Josefin Sans;
+  font-size: 16px;
+}
+.about_me {
+  background: linear-gradient(to right, #d6e6c2, #d6e6df, #d6e6c2);
+  border:2px solid #78ab20;
+  border-radius: 30px;
+  padding: 0px 20px;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width : 1024px) {
+html, body {
+  height:100%;
+  width:100%;
+  padding:0;
+  margin:0;
+  text-align:center;
+  font-size: 16px;
+}
+.desktop_container {
+  display: none;
+}
+.mobile_container {
+  display: block;
+}
+
+img {
+  display:block;
+  margin:0 auto;
+}
+p {
+  display:block;
+  width:95%;
+  margin:7% auto 0 auto;
+  /*this 1px transparent image overcomes the width problem with android browser 'auto-fit pages' setting turned on*/
+  background-image: url(http://www.clarkben.com/images/blank.png);
+  text-align:left;
+  font-size: 3em;
+}
+.btn {
+  position: relative;
+  font-family: Josefin Sans;
+  font-size: 3em;
+  display: inline-block;
+  width: 35%;
+  margin: 7% 2% 15% 2%;
+  padding: 4% 1%;
+  background-color: #f1f1f1;
+  border: 0.1% solid #ccc;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+}

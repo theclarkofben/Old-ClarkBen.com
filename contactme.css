@@ -1,0 +1,61 @@
+@import "http://fonts.googleapis.com/css?family=Josefin+Sans";
+div#main{
+width:400px;
+height:650px;
+margin:0 auto;
+font-family: Josefin Sans,sans-serif
+}
+div#form_sample{
+text-align:center;
+width:300px;
+padding:0 50px 15px;
+margin-top:20px;
+float:left
+}
+#main h1{
+margin-top:40px
+}
+hr{
+margin-top:-5px
+}
+label{
+float:left;
+font-size:16px
+}
+input[type="text"]{
+width:294px;
+margin-top:10px;
+height:35px;
+margin-bottom:25px;
+border:3px solid #51d2f6
+}
+textarea{
+width:290px;
+border:3px solid #51d2f6;
+margin-bottom:25px;
+margin-top:10px;
+height:100px;
+resize:none
+}
+input[type="submit"]{
+width:100%;
+padding:10px 45px;
+background-color:#51d2f6;
+border:none;
+color:#fff;
+font-size:18px;
+font-weight:700;
+cursor:pointer;
+font-family: Josefin Sans,sans-serif
+}
+p {
+font-family: Josefin Sans,sans-serif;
+color:red;
+font-size:16px;
+}
+/* -------------------------------------
+CSS for Sidebar (optional)
+---------------------------------------- */
+div#fugo{
+float:right
+}
