@@ -1,3 +1,3 @@
-# Clarkben.com
+# Old Clarkben.com
 
-This is a website I made for myself using jQuery/CSS/HTML/PHP.
+This is the old version of my personal website. It was made using jQuery/CSS/HTML/PHP and has a simple media query to switch to a basic mobile version.
